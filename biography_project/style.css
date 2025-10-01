@@ -1,0 +1,160 @@
+* {
+  font-family: "poppins";
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  
+}
+
+/* Mengatur Bagaian Header */
+.heading {
+  background-color:  rgb(85, 67, 67);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100px;
+}
+.heading-1 {
+    color: white;
+    
+}
+.h3-1 {
+    background-color:  rgb(85, 67, 67);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.roni a {
+    color: white;
+    text-decoration: none;
+    transition: all ease-in 0.5s;
+    border-radius: 5px;
+}
+.roni a:hover{
+    color: blue;
+    background-color: gray;
+    transition: ease-in 0,5s;
+    }
+
+
+/* Mengatur Bagian Foto & Caption */
+.container-img {
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    width: 100%;
+}
+.img-1 {
+    width: 30%;
+    height: 30%;
+    border-radius: 4rem;
+    height: 100%;
+
+}
+.container-caption {
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-style: italic;
+    font-size: 50px ; 
+    
+}
+
+/* Mengatur Bagian navigasi */
+.navigasi-utama {
+    background-color: rgb(85, 67, 67);
+    width: 100%;
+    height: 100px;
+}
+
+.sub-menu {
+    justify-content: center;
+    display: flex;
+}
+.menu {
+    list-style-type: none;
+    border: 1px  rgb(159, 143, 143);
+    padding: 30px;
+    margin: 5px;
+    color: white;
+
+}
+.text-menu {
+    color: white;   
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    transition: all 1s ease;
+}
+.text-menu:hover {
+    background-color: gray;
+    color: white;
+    transition: ease ease-in-out 1s;
+    border-radius: 10px;
+}   
+
+/* Untuk Paragraf  */
+
+    
+
+
+p {
+    margin: 15px;
+    text-align: justify;
+    
+}
+
+h2 {
+    text-align: center;
+}
+.subbab-1 {
+    background-color: rgb(177, 233, 214);
+    border-radius: 2rem;
+}
+.subbab-2 {
+    background-color: rgb(177, 233, 214);
+    border-radius: 2rem;
+}
+.subbab-3 {
+    background-color: rgb(177, 233, 214);
+    border-radius: 2rem;
+}
+.subbab-4 {
+    background-color: rgb(177, 233, 214);
+    border-radius: 2rem;
+}
+.subbab-5 {
+    background-color: rgb(177, 233, 214);
+    border-radius: 1rem;
+    
+    
+    justify-content: center;
+    ;
+}
+.p-photo {
+    text-align: center;
+}
+
+.kontak {
+    text-align: center;
+}
+
+.back-on-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: cyan;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.back-on-top:hover {
+    background-color: gray;
+    
+}
